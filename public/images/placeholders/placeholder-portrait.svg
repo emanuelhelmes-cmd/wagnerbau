@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#f5f0e8"/>
+  <!-- Person silhouette placeholder -->
+  <circle cx="200" cy="170" r="60" fill="#e5dfd4"/>
+  <ellipse cx="200" cy="320" rx="80" ry="100" fill="#e5dfd4"/>
+  <text x="200" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#c9a040" opacity="0.5">Foto folgt</text>
+</svg>

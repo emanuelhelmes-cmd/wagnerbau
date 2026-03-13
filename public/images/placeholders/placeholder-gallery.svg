@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#f5f0e8"/>
+  <circle cx="200" cy="160" r="80" fill="#e5dfd4"/>
+  <circle cx="200" cy="160" r="40" fill="#d9d0c0"/>
+  <path d="M160 160 L180 180 L240 120" stroke="#c9a040" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <rect x="100" y="280" width="200" height="12" rx="6" fill="#e5dfd4"/>
+  <rect x="130" y="305" width="140" height="10" rx="5" fill="#ebe5d9"/>
+  <text x="200" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#c9a040" opacity="0.6">Platzhalterbild</text>
+</svg>

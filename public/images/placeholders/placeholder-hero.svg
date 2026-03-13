@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <rect width="1200" height="600" fill="#f5f0e8"/>
+  <!-- Construction themed hero placeholder -->
+  <g opacity="0.55">
+    <!-- Large building outline -->
+    <rect x="400" y="100" width="400" height="350" rx="4" stroke="#c9a040" stroke-width="3" fill="none"/>
+    <rect x="420" y="120" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="520" y="120" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="620" y="120" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="420" y="200" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="520" y="200" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="620" y="200" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="420" y="280" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="520" y="280" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <rect x="620" y="280" width="80" height="60" rx="2" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+    <!-- Crane -->
+    <line x1="250" y1="450" x2="250" y2="50" stroke="#c9a040" stroke-width="4"/>
+    <line x1="250" y1="80" x2="500" y2="80" stroke="#c9a040" stroke-width="2"/>
+    <line x1="250" y1="80" x2="150" y2="80" stroke="#c9a040" stroke-width="2"/>
+    <line x1="150" y1="80" x2="250" y2="50" stroke="#c9a040" stroke-width="1.5"/>
+    <line x1="500" y1="80" x2="480" y2="200" stroke="#c9a040" stroke-width="1" stroke-dasharray="4"/>
+    <!-- Ground line -->
+    <line x1="100" y1="450" x2="1100" y2="450" stroke="#c9a040" stroke-width="2.5"/>
+  </g>
+  <text x="600" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#c9a040" opacity="0.7" font-weight="bold" letter-spacing="2">Wagner Bau &amp; Immobilien</text>
+</svg>

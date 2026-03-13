@@ -1,0 +1,52 @@
+// Wagner Bau & Immobilien - Database Schema
+// Using SQLite for simplicity and zero infrastructure cost
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+/// Contact form submissions from website visitors
+model ContactMessage {
+  id         String   @id @default(cuid())
+  name       String
+  email      String
+  phone      String?
+  message    String
+  photoUrl   String?  /// Optional uploaded photo path
+  isRead     Boolean  @default(false)
+  isArchived Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  @@index([isRead])
+  @@index([createdAt])
+}
+
+/// Project gallery images managed through admin panel
+model GalleryImage {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  category    String   /// Maps to service category slug
+  imageUrl    String
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@index([category])
+  @@index([isActive])
+}
+
+/// Editable site content managed through admin panel
+model SiteContent {
+  id        String   @id @default(cuid())
+  key       String   @unique /// e.g. "hero.headline", "about.story"
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@index([key])
+}
