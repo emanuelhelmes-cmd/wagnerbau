@@ -94,7 +94,7 @@ export default function UeberUnsPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
               Werte &{" "}
-              <span className="heading-accent heading-accent-center text-accent">
+              <span className="text-accent">
                 Arbeitsweise
               </span>
             </h2>
@@ -187,7 +187,7 @@ export default function UeberUnsPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
               So läuft die{" "}
-              <span className="heading-accent heading-accent-center text-accent">
+              <span className="text-accent">
                 Zusammenarbeit
               </span>
             </h2>

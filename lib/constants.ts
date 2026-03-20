@@ -44,7 +44,7 @@ export const SERVICES: Service[] = [
     id: "abbruch-entruempelung",
     title: "Abbruch und Entrümpelung",
     slug: "abbruch-entruempelung",
-    icon: "Hammer",
+    icon: "HammerIcon",
     shortDescription:
       "Professioneller Rückbau und Entrümpelung von Räumen, Wohnungen und Gebäudeteilen.",
     description:
@@ -60,7 +60,7 @@ export const SERVICES: Service[] = [
     id: "trockenbau",
     title: "Trockenbau",
     slug: "trockenbau",
-    icon: "LayoutGrid",
+    icon: "DrywallIcon",
     shortDescription:
       "Flexible Raumgestaltung mit Trockenbauwänden, Deckenabhängungen und Dachausbau.",
     description:
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     id: "kuechenmontage",
     title: "Küchenmontage",
     slug: "kuechenmontage",
-    icon: "ChefHat",
+    icon: "KitchenIcon",
     shortDescription:
       "Professionelle Montage Ihrer neuen Küche inklusive Anschluss aller Geräte.",
     description:
@@ -92,7 +92,7 @@ export const SERVICES: Service[] = [
     id: "moebelmontage",
     title: "Möbelmontage & Einbauschränke",
     slug: "moebelmontage",
-    icon: "DoorOpen",
+    icon: "WardrobeIcon",
     shortDescription:
       "Fachgerechte Montage von Möbeln, Einbauschränken und Regalsystemen.",
     description:
@@ -108,7 +108,7 @@ export const SERVICES: Service[] = [
     id: "innentürmontage",
     title: "Innentürmontage",
     slug: "innentürmontage",
-    icon: "DoorClosed",
+    icon: "DoorIcon",
     shortDescription:
       "Einbau und Austausch von Innentüren inklusive Zargen und Beschlägen.",
     description:
@@ -124,7 +124,7 @@ export const SERVICES: Service[] = [
     id: "bodenverlegung",
     title: "Bodenverlegung",
     slug: "bodenverlegung",
-    icon: "Layers",
+    icon: "FloorIcon",
     shortDescription:
       "Verlegung von Laminat, Vinyl, Parkett und anderen Bodenbelägen.",
     description:
@@ -140,7 +140,7 @@ export const SERVICES: Service[] = [
     id: "silikon-verfugung",
     title: "Silikon- und Verfugungsarbeiten",
     slug: "silikon-verfugung",
-    icon: "Droplets",
+    icon: "CaulkIcon",
     shortDescription:
       "Professionelle Silikon- und Fugenarbeiten in Bad, Küche und Sanitärbereichen.",
     description:
@@ -156,7 +156,7 @@ export const SERVICES: Service[] = [
     id: "terrassenbau",
     title: "Terrassenbau",
     slug: "terrassenbau",
-    icon: "Fence",
+    icon: "DeckIcon",
     shortDescription:
       "Planung und Bau von Holz- und WPC-Terrassen für Ihren Außenbereich.",
     description:
@@ -172,7 +172,7 @@ export const SERVICES: Service[] = [
     id: "wand-deckenaufbereitung",
     title: "Wand- und Deckenaufbereitung",
     slug: "wand-deckenaufbereitung",
-    icon: "PaintBucket",
+    icon: "PaintIcon",
     shortDescription:
       "Aufbereitung und Vorbereitung von Wänden und Decken für neue Oberflächen.",
     description:
@@ -188,7 +188,7 @@ export const SERVICES: Service[] = [
     id: "putz-ausbesserung",
     title: "Putz- und Ausbesserungsarbeiten",
     slug: "putz-ausbesserung",
-    icon: "Wrench",
+    icon: "TrowelIcon",
     shortDescription:
       "Kleine und mittlere Putzarbeiten sowie Ausbesserungen im Innen- und Außenbereich.",
     description:
